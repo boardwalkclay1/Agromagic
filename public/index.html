@@ -1,12 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <title>AgroMagic | Grow Something Wonderful Together</title>
 
-  <meta name="description" content="AgroMagic is a community-powered farm, campground, festival, and gathering place in Stockbridge, Georgia.">
+  <meta
+    name="description"
+    content="AgroMagic is a community-powered farm, campground, festival, and gathering place in Stockbridge, Georgia."
+  >
 
   <meta name="theme-color" content="#183c2b">
 
@@ -29,52 +33,130 @@
 
   <script defer src="/config.js"></script>
   <script defer src="/site.js"></script>
+
 </head>
 
 <body>
 
-<header data-header></header>
+<header class="site-header">
+
+  <nav class="nav wrap">
+
+    <a href="/" class="brand">
+
+      <img
+        src="/img/Agromajic%20.png"
+        alt="AgroMagic Logo"
+        style="height:64px;width:auto;"
+      >
+
+    </a>
+
+    <button
+      class="menu-toggle"
+      aria-label="Toggle navigation"
+      onclick="document.querySelector('.nav-links').classList.toggle('open')"
+    >
+      ☰ Menu
+    </button>
+
+    <div class="nav-links">
+
+      <a href="/">Home</a>
+
+      <a href="/about.html">
+        Our Story
+      </a>
+
+      <a href="/farm.html">
+        The Farm
+      </a>
+
+      <a href="/workshops.html">
+        Workshops
+      </a>
+
+      <a href="/market.html">
+        Market
+      </a>
+
+      <a href="/get-involved.html">
+        Get Involved
+      </a>
+
+      <a href="/donate.html">
+        Donate
+      </a>
+
+      <a
+        href="/festival.html"
+        class="nav-cta"
+      >
+        AgroMagic Fest
+      </a>
+
+    </div>
+
+  </nav>
+
+</header>
 
 <main>
 
 <section class="hero">
+
   <div class="wrap">
+
     <div class="hero-grid">
 
       <div class="hero-copy">
-        <span class="eyebrow">🌱 A vision taking root in Georgia</span>
+
+        <span class="eyebrow">
+          🌱 A vision taking root in Georgia
+        </span>
 
         <h1>
-          Grow something <em>wonderful</em> together.
+          Grow something
+          <em>wonderful</em>
+          together.
         </h1>
 
         <p>
-          Ten acres. Countless possibilities. We're creating a place where
-          farming, food, creativity, festivals, and community flourish side by side.
+          Ten acres. Countless possibilities. AgroMagic is building a place
+          where agriculture, camping, festivals, art, education, and community
+          come together on one shared piece of land.
         </p>
 
         <div class="buttons">
-          <a class="button" href="about.html">
+
+          <a class="button" href="/about.html">
             Discover Our Story ↗
           </a>
 
-          <a class="button secondary" href="get-involved.html">
+          <a class="button secondary" href="/get-involved.html">
             Get Involved ↗
           </a>
+
         </div>
+
       </div>
 
       <div class="hero-art">
+
         <img
           src="/img/Agromajic%20Fest_FINAL_BLACK%20TRANSPARENT%20BACKGROUND.png"
-          alt="AgroMagic Festival Logo">
+          alt="AgroMagic Festival Logo"
+        >
 
         <div class="art-label">
           🌽 🍅 🥕 🍓
           <strong>Stockbridge, Georgia</strong>
         </div>
+
       </div>
 
     </div>
+
   </div>
+
 </section>
