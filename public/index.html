@@ -42,7 +42,11 @@
 
 <nav class="nav wrap">
 
-<a href="/" class="brand">
+<a
+  href="#"
+  class="brand"
+  onclick="document.getElementById('nav-links').classList.toggle('open'); return false;"
+>
 
 <img
   src="/img/Agromajic%20.png"
@@ -52,15 +56,10 @@
 
 </a>
 
-<button
-  class="menu-toggle"
-  aria-label="Toggle navigation"
-  onclick="document.querySelector('.nav-links').classList.toggle('open')"
+<nav
+  class="nav-links"
+  id="nav-links"
 >
-  ☰ MENU
-</button>
-
-<div class="nav-links">
 
   <a href="/">Home</a>
 
@@ -92,7 +91,7 @@
     AgroMagic Fest
   </a>
 
-</div>
+</nav>
 
 </nav>
 
