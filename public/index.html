@@ -9,27 +9,67 @@
 
 <meta
   name="description"
-  content="AgroMagic is a community-powered farm, campground, festival, and gathering place in Stockbridge, Georgia."
+  content="AgroMagic is a community-powered farm, campground, festival, market, and gathering place in Stockbridge, Georgia."
 >
 
 <meta name="theme-color" content="#183c2b">
 
+<!-- OPEN GRAPH -->
+
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="AgroMagic">
-<meta property="og:title" content="AgroMagic | Grow Something Wonderful Together">
-<meta property="og:description" content="Ten acres. Countless possibilities. Growing food, community, creativity, festivals, and connection together.">
-<meta property="og:image" content="/img/Agromajic%20Fest_FINAL_BLACK%20TRANSPARENT%20BACKGROUND.png">
-<meta property="og:image:alt" content="AgroMagic Festival Logo">
 
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="AgroMagic | Grow Something Wonderful Together">
-<meta name="twitter:description" content="A farm, campground, festival, creative space, and community destination in Georgia.">
-<meta name="twitter:image" content="/img/Agromajic%20Fest_FINAL_BLACK%20TRANSPARENT%20BACKGROUND.png">
+<meta property="og:title"
+      content="AgroMagic | Grow Something Wonderful Together">
 
-<link rel="icon" type="image/png" href="/img/Agromajic%20.png">
-<link rel="apple-touch-icon" href="/img/Agromajic%20.png">
+<meta property="og:description"
+      content="Ten acres. Countless possibilities. Growing food, community, creativity, festivals, and connection together.">
 
-<link rel="stylesheet" href="/css/style.css">
+<meta property="og:url"
+      content="https://agromagic.org">
+
+<meta property="og:image"
+      content="https://agromagic.org/img/Agromajic_Fest_Share.jpg">
+
+<meta property="og:image:width"
+      content="1200">
+
+<meta property="og:image:height"
+      content="630">
+
+<meta property="og:image:alt"
+      content="AgroMagic Festival Logo">
+
+<!-- TWITTER -->
+
+<meta name="twitter:card"
+      content="summary_large_image">
+
+<meta name="twitter:title"
+      content="AgroMagic | Grow Something Wonderful Together">
+
+<meta name="twitter:description"
+      content="A farm, campground, festival, creative space, and community destination in Georgia.">
+
+<meta name="twitter:image"
+      content="https://agromagic.org/img/Agromajic_Fest_Share.jpg">
+
+<!-- ICONS -->
+
+<link rel="icon"
+      type="image/png"
+      sizes="512x512"
+      href="/img/Agromajic-2.png">
+
+<link rel="apple-touch-icon"
+      sizes="512x512"
+      href="/img/Agromajic-2.png">
+
+<link rel="manifest"
+      href="/manifest.webmanifest">
+
+<link rel="stylesheet"
+      href="/css/style.css">
 
 <script defer src="/js/config.js"></script>
 <script defer src="/js/site.js"></script>
@@ -40,25 +80,29 @@
 
 <header class="site-header">
 
-  <div class="wrap">
+  <div class="wrap header-wrap">
 
     <a
       href="#"
       class="brand"
       onclick="document.body.classList.toggle('menu-open');return false;"
+      aria-label="Open menu"
     >
 
       <img
-        src="/img/Agromajic%20.png"
+        src="/img/Agromajic-2.png"
         alt="AgroMagic Logo"
         class="logo"
       >
 
     </a>
 
+    <div class="header-spacer"></div>
+
   </div>
 
 </header>
+
 
 <aside class="side-menu">
 
@@ -98,6 +142,7 @@
 
 </aside>
 
+
 <main>
 
 <section class="hero">
@@ -113,44 +158,180 @@
         </span>
 
         <h1>
+
           Grow Something
+
           <em>Wonderful</em>
+
           Together.
+
         </h1>
 
         <p>
-          Ten acres. Countless possibilities. AgroMagic is building a place
-          where agriculture, camping, festivals, art, education, and community
-          come together on one shared piece of land.
+
+          Ten acres. Countless possibilities.
+
+          AgroMagic is creating a destination
+          where food, agriculture, camping,
+          art, music, wellness, education,
+          festivals, and community thrive
+          side by side.
+
         </p>
 
         <div class="buttons">
 
-          <a class="button" href="/pages/about.html">
-            Discover Our Story ↗
+          <a
+            class="button"
+            href="/pages/about.html"
+          >
+
+            Discover Our Story →
+
           </a>
 
-          <a class="button secondary" href="/pages/get-involved.html">
-            Get Involved ↗
+          <a
+            class="button secondary"
+            href="/pages/get-involved.html"
+          >
+
+            Get Involved →
+
           </a>
 
         </div>
 
       </div>
+
 
       <div class="hero-art">
 
         <img
-          src="/img/Agromajic%20Fest_FINAL_BLACK%20TRANSPARENT%20BACKGROUND.png"
+
+          src="/img/Agromajic Fest_FINAL_BLACK TRANSPARENT BACKGROUND.png"
+
           alt="AgroMagic Festival Logo"
+
+          class="hero-logo-main"
+
         >
 
         <div class="art-label">
+
           🌽 🍅 🥕 🍓
-          <strong>Stockbridge, Georgia</strong>
+
+          <strong>
+
+            Stockbridge,
+            Georgia
+
+          </strong>
+
         </div>
 
       </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+
+<section class="intro-section">
+
+  <div class="wrap">
+
+    <h2>
+
+      More Than A Farm
+
+    </h2>
+
+    <p>
+
+      AgroMagic is a living project centered on
+      regenerative agriculture, camping,
+      festivals, workshops, markets,
+      community gatherings, and creative
+      collaboration.
+
+    </p>
+
+  </div>
+
+</section>
+
+
+
+<section class="feature-grid-section">
+
+  <div class="wrap">
+
+    <div class="feature-grid">
+
+      <a
+        href="/pages/farm.html"
+        class="feature-card"
+      >
+
+        <h3>🚜 The Farm</h3>
+
+        <p>
+          Food production,
+          regenerative practices,
+          and agricultural education.
+        </p>
+
+      </a>
+
+      <a
+        href="/pages/market.html"
+        class="feature-card"
+      >
+
+        <h3>🛒 The Market</h3>
+
+        <p>
+          Fresh products,
+          handmade goods,
+          and local vendors.
+        </p>
+
+      </a>
+
+      <a
+        href="/pages/workshops.html"
+        class="feature-card"
+      >
+
+        <h3>🎓 Workshops</h3>
+
+        <p>
+          Learn practical skills,
+          farming techniques,
+          and creative arts.
+        </p>
+
+      </a>
+
+      <a
+        href="/pages/festival.html"
+        class="feature-card"
+      >
+
+        <h3>🎪 AgroMagic Fest</h3>
+
+        <p>
+          Music,
+          food,
+          community,
+          camping,
+          and celebration.
+        </p>
+
+      </a>
 
     </div>
 
