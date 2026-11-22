@@ -20,7 +20,7 @@
   "icons": [
     {
       "src": "/img/Agromajic-2.png",
-      "sizes": "192x192",
+      "sizes": "400x400",
       "type": "image/png",
       "purpose": "any"
     },
@@ -45,7 +45,7 @@
       "icons": [
         {
           "src": "/img/Agromajic-2.png",
-          "sizes": "192x192"
+          "sizes": "400x400"
         }
       ]
     },
@@ -56,7 +56,7 @@
       "icons": [
         {
           "src": "/img/Agromajic-2.png",
-          "sizes": "192x192"
+          "sizes": "400x400"
         }
       ]
     },
@@ -67,7 +67,7 @@
       "icons": [
         {
           "src": "/img/Agromajic-2.png",
-          "sizes": "192x192"
+          "sizes": "400x400"
         }
       ]
     },
@@ -78,7 +78,7 @@
       "icons": [
         {
           "src": "/img/Agromajic-2.png",
-          "sizes": "192x192"
+          "sizes": "400x400"
         }
       ]
     }
